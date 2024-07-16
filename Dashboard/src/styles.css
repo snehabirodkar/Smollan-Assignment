@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background-color: #08082d;
+}
+.page-wrapper {
+  padding: 60px 80px;
+}
