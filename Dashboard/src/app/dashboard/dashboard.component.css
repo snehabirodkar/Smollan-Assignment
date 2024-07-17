@@ -44,6 +44,8 @@
 .btn {
   font-size: 14px;
   padding: 7px 12px;
+  margin: 8px 4px;
+  width: 150px;
 }
 .btn-right {
   background-color: #00274e;
@@ -58,4 +60,13 @@
 }
 .card-wrapper {
   margin-top: 100px;
+}
+
+@media (max-width: 500px) {
+  .activites-wrapper {
+    display: block;
+  }
+  .left-side {
+    font-size: 12px;
+  }
 }

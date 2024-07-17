@@ -1,18 +1,23 @@
-.content {
+.contenter {
   align-items: center;
   justify-content: center;
   color: white;
+  flex-wrap: wrap;
+  /* position: fixed; */
 }
 .profile-wrapper {
+  padding: 20px 0 0 0;
   align-items: center;
   margin-bottom: 50px;
   /* justify-content: center; */
 }
 .image-container {
-  border: solid 1px white;
+  /* border: solid 1px white; */
   border-radius: 10px;
-  width: 80px;
-  height: 80px;
+}
+.image-container img {
+  width: 60px;
+  height: 60px;
 }
 .profile-name {
   margin-left: 30px;
@@ -29,7 +34,7 @@
   /* align-items: center; */
   /* justify-content: center; */
   border-radius: 50px 0 0 50px;
-  padding: 10px 15px;
+  padding: 8px 15px;
   cursor: pointer;
   margin: 20px 0;
 }
@@ -40,7 +45,7 @@
 }
 
 .icon {
-  margin-right: 25px;
+  margin-right: 20px;
 }
 .icon svg {
   width: 20px;
@@ -50,5 +55,78 @@
 .text {
   /* flex: 1; */
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+/* Subscription */
+.subscription {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 20px 30px 20px 20px;
+  border-radius: 30px;
+  /* height: 40px; */
+  margin-right: 50px;
+  background-color: #012466;
+}
+.sub-text {
+  margin: 15px 0;
+  font-weight: 200;
+  /* font-size: 14px; */
+}
+.heading-sub {
+  font-size: 22px;
+}
+.btn-class {
+  margin: 10px 0;
+}
+.subscribe-image {
+  /* width: 100px;
+  height: 100px; */
+  /* border: solid/ 1px white; */
+  right: -20px;
+  bottom: -19px;
+  position: absolute;
+}
+.subscribe-image img {
+  width: 100px;
+  height: 100px;
+  /* border-radius: 15px; */
+}
+.version-text {
+  font-size: 12px;
+}
+@media (max-width: 800px) {
+  .profile-wrapper {
+    /* padding: 10px; */
+    display: block;
+  }
+}
+@media (max-width: 800px) {
+  .subscription {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .menu-item {
+    display: flex;
+    border-radius: 50px 0 0 50px;
+    padding: 8px 6px;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .image-container img {
+    margin-left: 30px;
+  }
+  .text {
+    font-size: 14px;
+  }
+  .admin-name {
+    font-size: 14px;
+  }
+  .profile-name {
+    margin-left: 10px;
+  }
 }
