@@ -15,3 +15,14 @@ body {
 .p-0 {
   padding: 0;
 }
+:root {
+  --white: #ffffff;
+  --yellow-500: #ffeb3b;
+  --green-500: #4caf50;
+  --blue-400: #42a5f5;
+  --blue-500: #42a5f5;
+  --yellow-400: #ffee58;
+  --green-400: #66bb6a;
+  --text-color-secondary: #00274e;
+  --text-color: #cccccc;
+}

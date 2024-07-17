@@ -1,6 +1,6 @@
 .content {
   background-color: white;
-  height: 1000px;
+  /* height: 1000px; */
   border-radius: 60px;
 }
 .container {
@@ -69,4 +69,127 @@
   .left-side {
     font-size: 12px;
   }
+}
+.table-container {
+  overflow-x: auto; /* Enable horizontal scroll for long headers */
+  width: 100%; /* Adjust width as needed */
+}
+
+table {
+  width: 100%; /* Ensure table fills container width */
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left; /* Adjust alignment as needed */
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* margin-top: 200px; */
+}
+
+.btnn {
+  border: 1px solid #087f5b;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+.butn {
+  background: transparent;
+  border: none;
+}
+
+/* .btn:hover {
+  background-color: #087f5b;
+} */
+
+/* .btn:hover .btn-icon {
+  stroke: #fff;
+} */
+
+.page-link:link,
+.page-link:visited {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 18px;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 
+.page-link:hover,
+.page-link:active,
+.page-link.page-link--current {
+  background-color: #087f5b;
+  color: #fff;
+} */
+
+.dots {
+  color: #868e96;
+}
+.contentwe {
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  padding: 0 0 0 40px;
+  /* justify-content: center; */
+}
+.pie-chart {
+  /* padding: 80px 0 20px 0; */
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.p-element {
+  width: 200px;
+  height: 200px;
+}
+.p-element canvas {
+  width: 200px;
+  height: 200px;
+}
+.line-graph {
+  /* padding: 80px 0 20px 0; */
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.line-data {
+  display: block;
+  box-sizing: border-box;
+  height: 207px !important;
+  width: 211px;
+}
+
+.graph-wrapper,
+.bar-graph-wrapper {
+  margin: 50px 0 10px 0;
+}
+.graph-header {
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.drop-wrapper {
+  background: transparent;
+  color: black;
+  width: 100px;
 }

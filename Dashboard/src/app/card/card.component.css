@@ -26,6 +26,7 @@
   position: absolute;
   bottom: 140px;
   left: 15px;
+  border-radius: 10px;
 }
 .card-head {
   text-align: right;
