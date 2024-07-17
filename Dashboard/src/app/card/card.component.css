@@ -20,8 +20,8 @@
   padding: 20px;
 }
 .card-img {
-  width: 55px;
-  height: 48px;
+  width: 56px;
+  height: 55px;
   background-color: blue;
   position: absolute;
   bottom: 140px;
@@ -60,4 +60,33 @@
 .success {
   color: #26b18e;
   font-weight: bold;
+}
+svg {
+  width: 35px;
+  height: 30px;
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+}
+.activities {
+  background: linear-gradient(
+    90deg,
+    rgba(52, 154, 225, 1) 0%,
+    rgba(15, 88, 139, 1) 100%
+  );
+}
+.locations {
+  background: linear-gradient(
+    90deg,
+    rgba(93, 246, 207, 1) 0%,
+    rgba(38, 177, 142, 1) 100%
+  );
+}
+.headcount {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 107, 138, 1) 0%,
+    rgba(244, 58, 97, 1) 20%,
+    rgba(236, 25, 70, 1) 100%
+  );
 }
