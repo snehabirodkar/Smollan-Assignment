@@ -1,8 +1,6 @@
-/* .side-nav-wrapper {
-  border: solid 1px red;
-  height: 100%;
+.side-nav-wrapper {
+  padding: 0;
 }
 .dashboard-wrapper {
-  border: solid 1px red;
-  height: 100%;
-} */
+  padding: 0;
+}

@@ -1,0 +1,63 @@
+.card-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  margin: 10px 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content {
+  padding: 20px;
+}
+.card-img {
+  width: 55px;
+  height: 48px;
+  background-color: blue;
+  position: absolute;
+  bottom: 140px;
+  left: 15px;
+}
+.card-head {
+  text-align: right;
+  font-size: 12px;
+  margin: 10px 0;
+}
+.num-text {
+  text-align: right;
+  font-size: 22px;
+  margin: 0;
+  font-weight: bold;
+}
+.hr {
+  border-bottom: solid 1px #d0d0d0;
+}
+.lower-sec {
+  font-size: 12px;
+}
+.wrapper {
+  padding: 0px 20px;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.danger {
+  color: #ec1946;
+  font-weight: bold;
+}
+.lower-text {
+  font-family: 500;
+  color: #9c9c9c;
+}
+.success {
+  color: #26b18e;
+  font-weight: bold;
+}
