@@ -40,7 +40,7 @@ export class DashboardComponent {
     const textColor = documentStyle.getPropertyValue('--text-color');
 
     this.data = {
-      // labels: ['A', 'B', 'C'],
+      labels: ['A', 'B', 'C'],
       datasets: [
         {
           data: [540, 325, 702],
@@ -81,7 +81,7 @@ export class DashboardComponent {
       labels: ['January', 'February', 'March', 'April'],
       datasets: [
         {
-          label: '',
+          label: 'data',
           data: [65, 60, 70, 71],
           // fill: false,
           borderColor: documentStyle.getPropertyValue('--blue-500'),
@@ -141,7 +141,7 @@ export class DashboardComponent {
       labels: ['January', 'February', 'March', 'April'],
       datasets: [
         {
-          label: '',
+          label: 'data',
           backgroundColor: documentStyle.getPropertyValue('--blue-500'),
           borderColor: documentStyle.getPropertyValue('--blue-500'),
           data: [65, 59, 80, 81],
@@ -200,22 +200,22 @@ export class DashboardComponent {
     const surfaceBorder = documentStyle.getPropertyValue('--surface-border');
 
     this.basicData = {
-      labels: ['Q1', 'Q2', 'Q3', 'Q4'],
+      labels: ['Q1'],
       datasets: [
         {
-          label: '',
-          data: [540, 325, 702, 620],
+          label: 'data',
+          data: [540],
           backgroundColor: [
-            'rgba(255, 159, 64, 0.2)',
-            'rgba(75, 192, 192, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(153, 102, 255, 0.2)',
+            '#26b18e',
+            // 'rgba(75, 192, 192, 0.2)',
+            // 'rgba(54, 162, 235, 0.2)',
+            // 'rgba(153, 102, 255, 0.2)',
           ],
           borderColor: [
-            'rgb(255, 159, 64)',
-            'rgb(75, 192, 192)',
-            'rgb(54, 162, 235)',
-            'rgb(153, 102, 255)',
+            '#26b18e',
+            // 'rgb(75, 192, 192)',
+            // 'rgb(54, 162, 235)',
+            // 'rgb(153, 102, 255)',
           ],
           borderWidth: 1,
         },

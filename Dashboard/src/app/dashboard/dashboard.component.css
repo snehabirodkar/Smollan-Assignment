@@ -1,6 +1,5 @@
 .content {
   background-color: white;
-  /* height: 1000px; */
   border-radius: 60px;
 }
 .container {
@@ -26,8 +25,6 @@
   font-weight: 500;
 }
 .activites-wrapper {
-  /* justify-content: center;
-  align-items: center; */
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -71,31 +68,35 @@
   }
 }
 .table-container {
-  overflow-x: auto; /* Enable horizontal scroll for long headers */
-  width: 100%; /* Adjust width as needed */
+  overflow-x: auto;
+  width: 100%;
 }
 
 table {
-  width: 100%; /* Ensure table fills container width */
+  width: 100%;
   border-collapse: collapse;
 }
-
+tr th {
+  background-color: #ccc;
+}
+table {
+  border-radius: 20px;
+}
 th,
 td {
   padding: 10px;
   border: 1px solid #ddd;
-  text-align: left; /* Adjust alignment as needed */
+  text-align: left;
 }
 
 .pagination {
   display: flex;
   align-items: center;
   gap: 12px;
-  /* margin-top: 200px; */
+  margin: 10px 0;
 }
 
 .btnn {
-  border: 1px solid #087f5b;
   height: 48px;
   width: 48px;
   border-radius: 50%;
@@ -104,22 +105,14 @@ td {
 }
 
 .btn-icon {
-  width: 24px;
-  height: 24px;
-  stroke: #087f5b;
+  width: 22px;
+  height: 22px;
+  stroke: grey;
 }
 .butn {
   background: transparent;
   border: none;
 }
-
-/* .btn:hover {
-  background-color: #087f5b;
-} */
-
-/* .btn:hover .btn-icon {
-  stroke: #fff;
-} */
 
 .page-link:link,
 .page-link:visited {
@@ -134,40 +127,27 @@ td {
   align-items: center;
   justify-content: center;
 }
-/* 
-.page-link:hover,
-.page-link:active,
-.page-link.page-link--current {
-  background-color: #087f5b;
-  color: #fff;
-} */
 
-.dots {
-  color: #868e96;
-}
 .contentwe {
   color: #343a40;
   line-height: 1;
   display: flex;
   padding: 0 0 0 40px;
-  /* justify-content: center; */
 }
 .pie-chart {
-  /* padding: 80px 0 20px 0; */
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
 }
 .p-element {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
 }
 .p-element canvas {
   width: 200px;
   height: 200px;
 }
 .line-graph {
-  /* padding: 80px 0 20px 0; */
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
